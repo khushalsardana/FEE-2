@@ -1,0 +1,107 @@
+body{
+    background-image:url(https://cuiet.codebrigade.in/images/Chitkara_University_pic.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    border-top: 8px solid #ed3237;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* border-radius:10px; */
+}
+#Session{
+margin-left: 25px;
+width: 215px;
+height: 23px;
+}
+.form{
+    background-color: white;
+    width: 280px;
+    height: 510px;
+    margin-left: 70%;
+    
+    margin-top: 4%;
+    border: 4px solid rgba(0, 0, 0, 0.326);
+   padding-bottom: 20px;
+
+}
+#logo_373{
+    padding-left: 40px;
+    padding-top: 20px;
+    
+}
+.bar{
+    width: 75%;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+.l1{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 25px;
+
+}
+.one{
+    height: 110px;
+    
+}
+#terms{
+    margin-left: 25px;
+}
+#button{
+height: 37px;
+width: 220px;
+background-color: red;
+color: white;
+font-weight: 600;
+font-size: 14px;
+/* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+font-family: "Roboto", sans-serif;
+}
+.apple{
+margin-left: 70px;
+padding-right: 25px;
+}
+.code{
+height: 14.5px ;
+width: 175.98px;
+
+font-size: 13.5px;
+}
+.codehead{
+height: 14.5px ;
+width: 285px;
+padding: 0 0 0 50px;
+}
+.power{
+height: 27.79px;
+width: 285px;
+display: inline-block;
+padding-left: 20px;
+}
+
+
+.last
+{
+
+margin-top: 15px;
+height: 24.79px;
+width: 100px;
+}
+.po{
+font-size: 16px;
+color: rgb(84, 84, 84);
+}
+
+/* .line{
+    margin-top: -10px;
+    margin-left: -20px;
+    width: 1500px;
+    height: 7px;
+    background-color: rgb(237, 50, 55);
+
+} */
+.top{
+    margin-left:1320px;
+    margin-top: -7px;
+}
