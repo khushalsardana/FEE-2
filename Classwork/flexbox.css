@@ -1,0 +1,22 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    background-color:slateblue ;
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.items{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
