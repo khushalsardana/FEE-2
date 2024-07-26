@@ -1,0 +1,91 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>College Admission Form</title>
+     <link rel="stylesheet" href="college.css">
+ </head>
+ <body>
+    
+     <center>
+         
+         <div class="top"><h1 >University Admission Form</h1></div>
+         
+         <table class="container" border="2" height="800px" width="1000px">
+             <thead class="head">
+                 <th>Personal Details</th>
+                 <th>Extra Details</th>
+             </thead>
+             <tbody>
+                 <form><tr>
+                     <td><center><label for="email">Email:</label>
+                     <input type="checkbox" id="email" checked>
+                     khushal0630.be23@chitkara.edu.in</center></td><br><br>
+                     <td><center><label for="Marksheet">Upload :</label>
+                     <input type="file" id="Marksheet" name="Marksheet" accept=".pdf,.doc,.docx" required></center></td></tr>
+                     <br><br><tr><td>
+                         <center>
+                     <label for="fname">First Name:</label>
+                     <input type="text" id="fname" placeholder="First Name"><br><br></center></td>
+                     <td><center><label for="cletter">Cover Letter:</label>
+                         <textarea id="cletter">Cover Letter</textarea><br><br></center></td></tr>
+                         <tr><td><center>
+                     <label for="lname">Last Name:</label>
+                     <input type="text" id="lname" placeholder="Last Name"><br><br></center></td>
+                     <td><center><label for="essay">Your Admission Essay (Not more than 700 words):</label>
+                         <textarea id="essay">Enter here...</textarea></center></td></tr>
+                         <tr><td><center>
+                     <label for="ftname">Father's Name:</label>
+                     <input type="text" id="ftname" placeholder="Father's Name"><br><br>
+                     <label for="mtname">Mother's Name:</label>
+                     <input type="text" id="mtname" placeholder="Mother's Name"><br><br></center></td>
+                     <td><center>
+                         <label for="edu">Education:</label>
+                         <select id="edu" name="edu" required>
+                             <option value="12C" selected>Senior Secondary (12th): CBSE</option>
+                             <option value="12I">Senior Secondary (12th): ICSE</option>
+                             <option value="d">Diploma</option>
+                             <option value="ug">Undergraduate (UG)</option>
+                         </select></center></td></tr>
+                         <tr><td><center>
+                     <label for="address">Address</label>
+                     <textarea id="address">Input your address:</textarea><br><br>
+                     <label for="pno">Phone Number:</label>
+                     <select name="pno" id="pno" required>
+                         <option value="1">+91</option>
+                         <option value="2">+1</option>
+                         <option value="3">+44</option>
+                         <option value="4">+86</option>
+                         <option value="5">+76</option>
+                     </select>
+                     <input type="number" id="phone" name="phone" required>
+                     <br><br>
+                     <label for="country">Country:</label>
+                     <select id="country" name="country" required>
+                         <option value="91" selected>India</option>
+                         <option value="1">Paris</option>
+                         <option value="44">USA</option>
+                         <option value="86">Dubai</option>
+                     </select></center></td>
+                     <br><br>
+                     <td><center>
+                         Application for Scholarship(?):<br>
+                         <label for="sc">Yes</label>
+                         <input type="radio" id="sc" name="sc">
+                         <label for="nsc">No</label>
+                         <input type="radio" id="nsc" name="nsc"><br>
+                         <label for="scd">If yes, upload your scholarship letter:</label><br>
+                         <input type="file" id="scd" name="scd" accept=".pdf,.doc,.docx" required></center>
+                     </td></tr>
+                     <tr><td colspan="2"><center>
+                     <input type="submit" value="Submit"></td></tr></center>
+                 </form>
+             </tbody>
+         </table>
+     </center>
+    
+ </body>
+ </html>
+ 
