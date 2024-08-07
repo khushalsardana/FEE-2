@@ -1,0 +1,81 @@
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#kkk{
+    background-color: rgb(246, 246, 246);
+}
+.t{
+    display: flex;
+}
+#k{
+    font-size: 2rem;
+}
+#p{
+    padding-top: 2.3rem;
+    margin-left: -4rem;
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.I{
+    font-size: 50px;
+}
+.Dev{
+    font-size: 80px;
+    margin-top: -2rem;
+}
+.bg{
+    background-image:url("https://plus.unsplash.com/premium_photo-1673795751644-e42b58452dc0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    
+}
+.tg{
+    display: flex;
+    padding: 5%;
+    justify-content: space-between;
+
+    
+}
+.name{
+    padding-top: 8%;
+    color:black ;
+}
+
+#img{
+    height: 50vh;
+}
+
+.My{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+@media screen and (max-width: 981px) {
+    .tg{
+        display: inline-block;
+
+    }
+    #img {
+        height: 13vh;
+        display: flex;
+        justify-content: right;
+    }
+    .d-flex{
+        display: block;
+    }
+  }
