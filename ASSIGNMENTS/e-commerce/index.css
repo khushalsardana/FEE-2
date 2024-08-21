@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    scroll-behavior: smooth;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* background-color: rgb(196, 255, 225); */
+    
+}
+
+.navbar2 {
+    margin-left: -4%;
+    /* padding:0px 5px; */
+    
+}
+
+.mainn {
+    background-color:#4287be ;
+    color:white;
+}
+
+.navvv {
+    background-color:#669bc6 ;
+}
+
+.buttonn {
+    background-color:#8bb7dc ;
+}
+
+.cont {
+    color: white;
+}
+
+.lead {
+    color: white;
+}
+
+.nav2 {
+    margin-right: 100px ;
+    border: 2px solid black;
+    width: 200px;
+    border-radius: 10px;
+    /* background-color: rgba(255, 89, 0, 0); */
+    background-color: #88b1d2;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    
+}
+
+.nav2 :hover {
+    background-color:#1F74BA;
+    
+}
+
+.nav2 li a :hover {
+ color: white;
+    
+}
+
+.logoimg {
+    width: 4em;
+    height: 4em;
+    margin-left: 5%;
+}
+
+.nav1 {
+    margin-left: 60%;
+}
+
+#shop-btn{
+    background-color:#ff8100;
+}
+
+
+#card-width {
+    width: 18rem;
+}
+
+
+.nav-item .nav-link {
+    font-size: 20px;
+}
+
+.foot {
+    width: 100%;
+    background-color:#1F74BA;
+    padding: 0px 20px;
+    color: white;
+}
+
+#footing{
+    color: white;
+}
+
+
+@media (max-width: 768.98px) {
+    #input-form {
+        width: 35%;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .bg {
+        width: 350px;
+    }
+}
+
+@media (min-width: 992px) {
+    .bg {
+        width: 230px;
+
+    }
+}
+
+@media (min-width: 1200px) {
+    .bg {
+        width: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bg {
+        width: 250px;
+    }
+}
+
+@media (max-width: 578px) {
+    .bg {
+        width: 100%;
+    }
+}
