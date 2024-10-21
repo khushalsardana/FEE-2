@@ -1,0 +1,18 @@
+
+.page{
+    gap: 60px;
+    display: flex;
+    
+
+}
+.person{
+    border: 3px solid black;
+    color:greenyellow;
+    background-color: grey;
+    box-shadow: 5px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
